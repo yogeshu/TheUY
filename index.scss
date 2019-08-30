@@ -1,0 +1,23 @@
+$primary-color :hsl(0, 36%, 70%);
+$primary-color-alfa :  hsl(0, 93%, 68%);
+
+
+
+$secondary-color : hsl(0, 6%, 24%);
+
+
+$Fontsize: 16px;
+/*
+$Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
+- Weights: 300, 400, 600
+*/
+body{
+font-size: $Fontsize;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 300;
+padding: 10%;
+background-image: url(./images/bg-pattern-desktop.svg);
+}
+section{
+
+}

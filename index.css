@@ -1,0 +1,12 @@
+/*
+$Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
+- Weights: 300, 400, 600
+*/
+body {
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  padding: 10%;
+  background-image: url(./images/bg-pattern-desktop.svg);
+}
+/*# sourceMappingURL=index.css.map */
