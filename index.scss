@@ -1,46 +1,87 @@
-$primary-color :hsl(0, 36%, 70%);
-$primary-color-alfa :  hsl(0, 93%, 68%);
+$primary-color: hsl(0, 36%, 70%);
+$primary-color-alfa: hsl(0, 93%, 68%);
 
-
-
-$secondary-color : hsl(0, 6%, 24%);
-
+$secondary-color: hsl(0, 6%, 24%);
 
 $Fontsize: 16px;
 /*
 $Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
 - Weights: 300, 400, 600
 */
-body{
-font-size: $Fontsize;
-font-family: 'Josefin Sans', sans-serif;
-font-weight: 300;
-padding: 10%;
-background-image: url(./images/bg-pattern-desktop.svg);
-}
-section{
+body {
+  font-size: $Fontsize;
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-weight: 300;
+  padding-top:5%;
+  margin-top: 5%;
 
 }
 
-.searchbar > .search_input{
-    border-radius: 20px;
-    padding: 0 10px;
-    width: 320px;
-    caret-color:red;
-    transition: width 0.4s linear;
-    }
-.searchbar> .search_icon{
-        background: white;
-        color: #e74c3c;
-        }
-    
- .search_icon{
-        height: 40px;
-        width: 40px;
-        float: right;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        color:white;
-        }
+
+.header-wo {
+ 
+  font-size: 40px;
+  font-weight: 200;
+  color: $primary-color;
+  letter-spacing: 0.4em;
+  margin-top: 6%;
+  margin-bottom: -3%;
+  margin-left: 10%;
+}
+.header-co {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0.4em;
+  margin-left: 10%;
+}
+.header-so {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: -5%;
+  letter-spacing: 0.4em;
+  margin-left: 10%;
+}
+
+.logo-img {
+  width: 100px;
+  height: 30px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.hello {
+  background-image: url(./images/bg-pattern-desktop.svg);
+}
+section {
+}
+.intro-para{
+    color: $primary-color;
+    line-height: 2em;
+    margin-left: 10%;
+    font-size: 14px;
+    margin-bottom: 5%;
+
+
+}
+.searchbar{
+    margin-left: 10%;
+}
+.searchbar > .search_input {
+    position: relative;
+    background-color: transparent;
+  border-radius: 20px;
+  padding: 0 10px;
+  width: 340px;
+}
+.searchbar > .search_icon {
+    margin-left:  40%;
+    position: absolute;
+  background: $primary-color-alfa;
+  height: 35px;
+  width: 60px;
+  
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 45%;
+}
