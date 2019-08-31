@@ -21,3 +21,26 @@ background-image: url(./images/bg-pattern-desktop.svg);
 section{
 
 }
+
+.searchbar > .search_input{
+    border-radius: 20px;
+    padding: 0 10px;
+    width: 320px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+.searchbar> .search_icon{
+        background: white;
+        color: #e74c3c;
+        }
+    
+ .search_icon{
+        height: 40px;
+        width: 40px;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color:white;
+        }

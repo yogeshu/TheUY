@@ -9,4 +9,35 @@ body {
   padding: 10%;
   background-image: url(./images/bg-pattern-desktop.svg);
 }
+
+.searchbar > .search_input {
+  border-radius: 20px;
+  padding: 0 10px;
+  width: 320px;
+  caret-color: red;
+  -webkit-transition: width 0.4s linear;
+  transition: width 0.4s linear;
+}
+
+.searchbar > .search_icon {
+  background: white;
+  color: #e74c3c;
+}
+
+.search_icon {
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  color: white;
+}
 /*# sourceMappingURL=index.css.map */
